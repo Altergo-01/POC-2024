@@ -1,0 +1,38 @@
+/* color palette */
+:root {
+  --color-white-N: #FFFDFB;
+  --color-cream-N: #F7F2EC;
+  --color-mr-N: #2B150C;
+
+  --color-white-H: #EDEBE9;
+  --color-cream-H: #F7F2EC;
+  --color-mr-H: #2B150C;
+
+  --color-white-I: #FFFDFB;
+  --color-cream-I: #F7F2EC;
+  --color-mr-I: #2B150C;
+
+
+}
+
+/* semantic colors and font variables for this project */
+:root {
+  font-size: 16;
+  --color-background: var(--vt-c-white);
+
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Beatrice;
+
+}
