@@ -1,40 +1,44 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import BarNav from '@/components/BarNav.vue';
-import Rectangular from './components/shapes/Rectangular.vue';
+import Rectangular from './components/shapes/RectangularShape.vue';
 import UpdateComp from './components/UpdateComp.vue';
 </script>
 
 <template>
-  <BarNav></BarNav>
+ 
   <header>
       
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-      </nav>
-    </div>
+    <BarNav></BarNav>
+ 
   </header>
 
-  <!-- <RouterView /> -->
 
-<Rectangular> </Rectangular>
+  <section class="heroVod">
+    <div  class="leftVodInfo">
 
-<br><br><br>
+    </div>
+    <video autoplay muted loop >
+      <source src="@/assets/demo_configurateur.mp4" type="video/mp4">
+    </video>
+  </section>
+ 
 
-<UpdateComp> </UpdateComp>
+  <section class="ProjetIntro">
 
-<br><br><br>
-
+  </section>
+ 
 
 </template>
 
+
+
+
 <style scoped>
 
-
+video {
+    width: 100%;
+}
  
 header {
   line-height: 1.5;
@@ -53,11 +57,28 @@ nav {
 
 }
 
+section.hero-vod {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ProjetIntro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-cream-N);
+  height: 50vh;
+}
+
+
 
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
+ 
     padding-right: calc(var(--section-gap) / 2);
   }
 
