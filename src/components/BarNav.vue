@@ -55,6 +55,8 @@ nav{
     background-color: var(--color-cream-N);
     column-gap: 3%;
     position: fixed;
+
+    box-shadow: 0px 1px 11px 0px #9f9c9c82;
 }
 
 .logo-mr {

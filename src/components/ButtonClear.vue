@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 
-a{
+.button-wrapper{
     border-radius: 50px;
     background-color: var(--color-mr-N);
     border: 2px solid var(--color-mr-N);
@@ -42,7 +42,7 @@ a{
     text-decoration: none;
 }
 
-a:hover {
+.button-wrapper:hover {
     border: 2px solid var(--color-mr-N);
     background-color: var(--color-cream-N);
     transition: 0.300s;

@@ -16,11 +16,15 @@ export default {
 </script>
 <template>    
 
-  <div id="img-content" class="imgC">
- 
-    <img src="@/assets/Rect-img.png" alt="" class="Rect-left">
+  <div id="img-content" class="WrapperShape">
+    
+    <div  class="Rect-left">
+      <img src="@/assets/Home-shape.png" alt="">
+    </div>
+    
     <p class="Rect-right">
-      <img src="@/assets/Rect.png" alt="" class="Shape-bg" >
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente hic perspiciatis voluptates aspernatur suscipit. Qui, reiciendis dolorem sunt perferendis, sint quos dolor temporibus, repudiandae eveniet rem facere minus quibusdam?</span>    
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente hic perspiciatis voluptates aspernatur suscipit. Qui, reiciendis dolorem sunt perferendis, sint quos dolor temporibus, repudiandae eveniet rem facere minus quibusdam?</span>    
       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente hic perspiciatis voluptates aspernatur suscipit. Qui, reiciendis dolorem sunt perferendis, sint quos dolor temporibus, repudiandae eveniet rem facere minus quibusdam?</span>    
     </p>
  
@@ -35,29 +39,37 @@ svg {
   width: 50%;
 }
 span {
-    position: absolute;
-    top: 10%;
-    left: 15%;
-    right: 5%;
+
 }
-.imgC{
+.WrapperShape{
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: none;
   height: fit-content;
+  column-gap: 0rem;
 }
 
 .Rect-left{
   height: 100%;
-  width: 50%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
 }
+
+.Rect-left img{
+  width: 70%;
+}
+
 .Rect-right{
   height: 100%;
-  width: 50%;
+  width: 45%;
   margin-block-end: 0px;
   margin-block-start: 0px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  row-gap: 1rem;
 }
 
 .Shape-bg{

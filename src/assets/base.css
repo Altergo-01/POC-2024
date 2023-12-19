@@ -17,7 +17,7 @@
 
 /* semantic colors and font variables for this project */
 :root {
-  font-size: 16;
+  font-size: 14px;
   --color-background: var(--vt-c-white);
 
 }
