@@ -39,9 +39,7 @@ svg {
   height: 100%;
   width: 50%;
 }
-span {
 
-}
 .WrapperShape{
   display: flex;
   justify-content: center;
@@ -81,13 +79,6 @@ span {
   margin-left: 20%;
 }
 
-.Rect-txt::before{
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-image: url('@/assets/Rect.png');
-}
 
 .stop-end{
   width: 10%;

@@ -1,5 +1,5 @@
 <script>
-import ButtonClear from './ButtonClear.vue';
+import ButtonClear from "@/buttonclear.vue";
 
 export default {
     components: {
@@ -102,9 +102,6 @@ nav{
     padding-right: 5%;
 }
 
-.nav-container{
-
-}
 
 
 </style>
