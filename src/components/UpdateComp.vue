@@ -2,6 +2,8 @@
  
 
 export default {
+    
+  props: ['date1', 'date2', 'Mess1', 'Com1', 'Com2'],
   data() {
     return {
 
@@ -52,20 +54,21 @@ mounted() {
 
          
             <div class="Info-square">
-                <h2>27</h2>
-                <p>Février 2023</p>
+                <h2>{{ date1 }}</h2>
+                <p> {{ date2 }}</p>
             </div>
         
    
         <div class="Wrapper-rt">
             <div class="Info-rect">
                 <p class="Info-text"> 
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
-                    magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
-                 ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
-                 magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
-                    magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus?     magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
-                   
+                    {{ Mess1 }}
+                    <br><br>
+                    {{ Com1 }}
+                    <br><br>
+                    <p>Un message de toute l'équipe :</p>
+                    <br><br>
+                    {{ Com2 }}
                 </p>
                 <img  :src="this.getArrowImage" v-on:click.prevent="deployed()" class="Info-deploy"> 
             </div>

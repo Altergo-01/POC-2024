@@ -23,9 +23,10 @@ export default {
     </div>
     
     <p class="Rect-right">
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente hic perspiciatis voluptates aspernatur suscipit. Qui, reiciendis dolorem sunt perferendis, sint quos dolor temporibus, repudiandae eveniet rem facere minus quibusdam?</span>    
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente hic perspiciatis voluptates aspernatur suscipit. Qui, reiciendis dolorem sunt perferendis, sint quos dolor temporibus, repudiandae eveniet rem facere minus quibusdam?</span>    
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente hic perspiciatis voluptates aspernatur suscipit. Qui, reiciendis dolorem sunt perferendis, sint quos dolor temporibus, repudiandae eveniet rem facere minus quibusdam?</span>    
+      <span>Notre projet de configurateur de cuisine marque une révolution dans l'expérience immersive et la simulation tridimensionnelle accessible à tous, directement depuis votre navigateur web. </span>    
+      <span>Imaginez une cuisine conçue sur mesure, taillée selon vos préférences, et adaptée à la perfection à votre style de vie. Avec notre configurateur, cette vision devient réalité. Peu importe la taille de votre espace, notre outil ingénieux permet de créer une cuisine fonctionnelle, esthétique et parfaitement ajustée à votre environnement. Chaque détail, du choix des blocs de rangement à la disposition des éléments, peut être personnalisé pour répondre à vos exigences uniques.</span>
+      <span>Notre futur interface conviviale et intuitive rendra le processus de conception ludique et accessible à tous. Il vous accompagnera dans chaque étape, faisant de la création de votre cuisine idéale une expérience agréable et sans tracas.</span>
+      <span>Nous croyons en l'innovation au service de la facilité d'utilisation, c'est pourquoi notre configurateur repousse les limites de la technologie pour vous offrir une expérience immersive exceptionnelle.</span>
     </p>
  
   </div>

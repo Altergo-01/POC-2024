@@ -25,7 +25,7 @@ import CardSub from '@/components/shapes/CardSub.vue'
   </section>
  
 
-  <section class="ProjetIntro">
+  <section class="ProjetIntro" id="p1">
     <div class="ProjetTitle">
       <h2>LE PROJET</h2>
       <p>Pour améliorer votre expérience.</p>
@@ -35,44 +35,77 @@ import CardSub from '@/components/shapes/CardSub.vue'
   </section>
 
   <main>
-    <section class="Content">
+    <section class="Content" >
 
-      <article class="Actu">
+      <article class="Actu" id="p2">
         <h2>ACTUALITÉS</h2>
         <div class="ActuList">
-          <UpdateComp> 
+          <UpdateComp date1="10" date2="Décembre 2023" Mess1="Merci Beaucoup... Le palier des 50000€ a été atteint en quelques jours." Com1="La réalisation du projet est enfin possible et nous allons pouvoir commencer à travailler dessus. Merci beaucoup pour votre contribution au projet." Com2="'On commencera le projet en bonne et du forme et on le présentera comme tel'"> 
+          </UpdateComp>
+          <UpdateComp date1="8" date2="Janvier 2024" Mess1="Avancée... Nous voulons vous tenir au courant que le projet avance bien, nous avons déjà bien entammer la réalisation des différents modéles 3D." Com1="Nous avons aussi commencer à réaliser toutes la préconfiguration du projet au niveau du site internet et des 
+solutions utilisées pour la mise à bien du modulateur de cuisine." Com2="Merci infiniment de votre soutient, on va tout donner pour ne pas vous décevoir"> 
+          </UpdateComp>
+          <UpdateComp date1="26" date2="Janvier 2024" Mess1="Incroyable...
+
+1 mois plus tard nous avons réussi à dépasser le deuxième palier et atteint un peu plus de 70000€." Com1="Merci à toutes les personnes qui ont souhaités nous soutenir sur ce projet et grâce à vous,
+l'ambition est d'autant plus grande et nous nous efforçons de réaliser un projet au summum de vos attentes." Com2="Spectaculaire, on a plus aucune raison de ne pas réaliser un projet aussi bien travailler avec autant de personne qui nous soutiennent, merci à tous."> 
           </UpdateComp>
 
-          <UpdateComp>
-          </UpdateComp>
-
-          <UpdateComp>
-          </UpdateComp>
-
-          <UpdateComp>
-          </UpdateComp>
-
-          <UpdateComp>
-          </UpdateComp>
           
         </div>
       </article>
 
-      <article class="ProjetSteps">
-        <img src="@/assets/StepsProject.png" alt="" width="100%">
+      <article class="ProjetSteps Particle" id="p3">
+
+    
+
+        <h2> PALIERS </h2>
+            <img src="@/assets/StepsProject.png" alt="" width="90%">
+        <h3>Palier 1</h3>
+        <br>
+        <p>Dans la première itération du configurateur, nous vous proposons une sélection de cuisines préfabriquées tout en vous laissant la liberté de personnaliser les matériaux, les couleurs, ainsi que les modèles de poignées et de façades selon vos préférences.</p>
+
+                
+        <h3>Palier 2</h3>
+        <br>
+        <p>Nous repoussons les limites du configurateur pour vous offrir la possibilité de concevoir entièrement votre cuisine. Vous pouvez désormais choisir la taille de votre espace cuisine et décider où positionner chaque meuble, le tout grâce à une interface utilisateur totalement repensée, plus intuitive et complète.</p>
+
+                
+        <h3>Palier 3</h3>
+        <br>
+        <p> Nous perfectionnons le niveau de personnalisation en permettant la modification de la forme de la pièce et de ses angles. Cela s'adresse particulièrement aux cuisines aux agencements plus complexes. De plus, nous introduisons un nouvel onglet "cosmétiques" qui vous donne la liberté d'ajouter des éléments décoratifs pour une immersion totale dans votre projet.</p>
+
+                
+        <h3>Palier 4</h3>
+        <br>
+        <p>À ce stade, vous avez la possibilité de créer vos propres meubles de A à Z. Choisissez la taille, la profondeur, la hauteur, le nombre de tiroirs, et bien plus encore. Une fois votre création aboutie, nous ajoutons automatiquement les détails de sa fabrication à votre panier, vous offrant une expérience de personnalisation ultime pour votre cuisine.</p>
+
+                
+        <h3>Palier ???</h3>
+        <br>
+        <p>?????????</p>
+
       </article>
 
-      <article class="ProjetDetail">
-        "l'équipe, la raison du pourquoi le projet"
+      <article class="ProjetDetail Particle">
+        <h2> NOTRE AVENTURE AVEC TIDYS </h2>
+        <p>Le projet du modulateur de cuisine réaliser pour Tidys est un projet qui nous tenais à coeur. <br><br>
+En tant que Kitchen Engineers, nous recherchions un collaborateur afin de nous soumettre un projet qui répondait à nos critéres. <br>
+Ce projet va permettre au particulier de se projeter dans leurs propres cuisine de types IKEA et de designer eux même leurs meubles,
+avec les matériaux proposer par Tidys.</p>
       </article>
 
-      <article class="ProjetGoal">
-        "Les but à atteindre"
+      <article class="ProjetGoal Particle">
+        <h3>Un grand merci à tous ceux qui compte nous soutenir. <br><br> Vous êtes une partie vitale de notre ascension, du progrès 
+        de ce projet, et c'est avec grand plaisir que nous vous accompagnerons régulièrement sur nos avancée, et les projets futurs que vos 
+      participation permettront de faire naître.</h3>
+
+      <br>
+
+      <h3> L'équipe KitchenEngineer</h3>
       </article>
 
-      <article class="ProjetEnd">
-          "mot de la fin"
-      </article>
+      <article class="Particle"></article>
 
     </section>
 
@@ -80,7 +113,17 @@ import CardSub from '@/components/shapes/CardSub.vue'
       <div style="height: 20vh">&nbsp;</div>
       <h2> Contreparties </h2>
 
-      <CardSub CardTe="On test en sah" CardIc="../src/assets/testCardImg.png" CardNa="testo" CardPr="25"></CardSub>
+      <CardSub CardTe="Donne accès à une carte fidélité exclusive, offrant -30% sur le 11ème produit acheté chez Tidys, badges Tidys fait avec les matériaux des façades. ( choisir )" CardIc="../src/assets/CTP1.png" CardNa="Carte Artisan" CardPr="5"></CardSub>
+
+      <CardSub CardTe="Permet d'être traité en priorité pour une commande future et assure la qualité dans un délais record." CardIc="../src/assets/CTP2.png" CardNa="Carte Coupe-file" CardPr="20"></CardSub>
+
+      <CardSub CardTe="Permet d'avoir accès aux nouveau produit en avance sur le site + récompenses précédentes." CardIc="../src/assets/CTP3.png" CardNa="Carte Associé" CardPr="50"></CardSub>
+
+      <CardSub CardTe="Permet d'être immortalisé comme l'un des pilier du service Tidys sur le site, -25% sur la totalité de la première commande" CardIc="../src/assets/CTP4.png" CardNa="Carte Colaborateur" CardPr="100"></CardSub>
+
+      <CardSub CardTe="Accès à des exemplaire gratuit de nouveaux produit, et permet de voir ses avis et conseils pris en compte, pour accompagner Tidys dans sa poursuite de la qualité. " CardIc="../src/assets/CTP5.png" CardNa="Carte Prestige" CardPr="250"></CardSub>
+
+
     </section>
   </main>
 
@@ -93,7 +136,22 @@ import CardSub from '@/components/shapes/CardSub.vue'
 
 <style scoped>
 
+.Particle{
+  margin-top: 20vh;
+  padding: 0 15vh 0 10vh;
+}
 
+.Particle h2{
+  margin: 0 0 5vh 0;
+}
+.Particle h3{
+  color: #925335;
+  margin-top: 5vh;
+}
+
+.Particle p{
+ 
+}
 
 video {
     width: 100%;

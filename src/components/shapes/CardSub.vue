@@ -25,7 +25,9 @@ export default {
 
     <div class="CardText">
       <h3>{{ CardNa }}</h3> 
+      <br>
       <p>{{ CardTe }}</p>
+      
     </div>
   </div>
 
@@ -62,6 +64,7 @@ export default {
     column-gap: 3%;
     padding: 3% 0px;
     align-items: center;
+    margin-bottom: 5vh;
 }
 
 .CardIcon{

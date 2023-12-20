@@ -33,11 +33,11 @@ export default {
     </div>
     <div class="nav-links">
         
-        <ButtonClear buttonName="PROJET" idA="#Boi"></ButtonClear>
+        <ButtonClear buttonName="PROJET" idA="#p1"></ButtonClear>
          
-        <ButtonClear buttonName="ACTUALITÉS" idA="#BRO"></ButtonClear>
+        <ButtonClear buttonName="ACTUALITÉS" idA="#p2"></ButtonClear>
 
-        <ButtonClear buttonName="PALIERS" idA="#BAM"></ButtonClear>
+        <ButtonClear buttonName="PALIERS" idA="#p3"></ButtonClear>
    
     </div>
 
