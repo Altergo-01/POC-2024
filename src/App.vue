@@ -40,11 +40,39 @@ import CardSub from '@/components/shapes/CardSub.vue'
       <article class="Actu">
         <h2>ACTUALITÉS</h2>
         <div class="ActuList">
+          <UpdateComp> 
+          </UpdateComp>
 
+          <UpdateComp>
+          </UpdateComp>
+
+          <UpdateComp>
+          </UpdateComp>
+
+          <UpdateComp>
+          </UpdateComp>
+
+          <UpdateComp>
+          </UpdateComp>
+          
         </div>
       </article>
 
+      <article class="ProjetSteps">
+        <img src="@/assets/StepsProject.png" alt="" width="100%">
+      </article>
 
+      <article class="ProjetDetail">
+        "l'équipe, la raison du pourquoi le projet"
+      </article>
+
+      <article class="ProjetGoal">
+        "Les but à atteindre"
+      </article>
+
+      <article class="ProjetEnd">
+          "mot de la fin"
+      </article>
 
     </section>
 
@@ -141,26 +169,36 @@ main{
 .Content {
     width: 75%;
     display: flex;
+    flex-direction: column ;
     align-items: flex-start;
     justify-content: center;
+    row-gap: 5vh;
 }
 
 .Actu{
   width: 100%;
-  padding: 0 0 0 15%;
-  border-left: 1px solid rgb(42, 42, 42);
+  padding: 0 0 0 5%;
+  
 }
 
 .Actu h2{
-  margin-bottom: 5vh;
+  margin: 0 0 5vh 5vh;
   
 
+}
+
+.ActuList{
+  border-left: 2px solid rgb(211 211 211);
+  padding: 0 0 0 2%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vw;
 }
 
 @media (min-width: 1024px) {
   header {
     display: flex;
- 
+    
     padding-right: calc(var(--section-gap) / 2);
   }
 

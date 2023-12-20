@@ -1,41 +1,78 @@
 <script>
-import { textInShape } from 'text-in-shape';
-import iridescent from '@/assets/iridescent.png';
-import wrap from 'text-in-shape';
+ 
 
 export default {
   data() {
     return {
-      
+
+        deploy:false,
+        trueHeight:'',
     };
   },
   methods: {
 
-    
+    deployed(){
+         this.deploy = !this.deploy
+    },
+
+    getInfoRectContentHeight() {
+        this.trueHeight = document.querySelector('.Info-text').offsetHeight;
+        console.log(this.trueHeight)
+    },
+
+    pxToVW(px) {
+        return (px+30) / window.innerWidth * 100;
+    },
+
   },
+  computed: {
+    getWrapperHeight() {
+        return {
+            height: this.deploy ? this.pxToVW(this.trueHeight) + "vw" : '8vw',
+           
+        };
+         
+    },
+
+    getArrowImage() {
+    return this.deploy ? "../src/assets/ArrowWhite.png" : '../src/assets/Arrow.png';
+  },
+},
+
+mounted() {
+  this.getInfoRectContentHeight();
+}
 
 };
 </script>
 
 <template>    
 
-    <section class="Wrapper-shapes">
+    <section class="Wrapper-shapes"  :style="getWrapperHeight">
 
-        <div class="Wrapper-sq">
+         
             <div class="Info-square">
-                <h2>ererer</h2>
-                <p>grezrzerrztzert zrtzret</p>
+                <h2>27</h2>
+                <p>Février 2023</p>
             </div>
-        </div>
+        
    
         <div class="Wrapper-rt">
             <div class="Info-rect">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
-                    magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus?
+                <p class="Info-text"> 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
+                    magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
+                 ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
+                 magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
+                    magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus?     magni natus cumque nihil, sit modi obcaecati dolorem est omnis culpa, incidunt praesentium minus necessitatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quis facere eveniet dicta iure alias 
+                   
                 </p>
+                <img  :src="this.getArrowImage" v-on:click.prevent="deployed()" class="Info-deploy"> 
             </div>
+
         </div>
 
+      
 
     </section>
 
@@ -44,19 +81,20 @@ export default {
 <style scoped>
 
 
+
+
 .Wrapper-shapes{
+    
     display: flex;
-    width: 80vw;
-    height: 10vw;
+    width: 100%;
+    height: vw;
+    transition: height 0.2s ease;
 }
 
-
-.Wrapper-sq{
-
-}
+ 
 .Info-square{
-    height: 10vw;
-    width: 10vw;
+    height: 100%;
+    width: 8vw;
     background-color: var(--color-mr-N);
     border-radius: 1rem 0px 1rem 1rem;
     color: white;
@@ -66,18 +104,44 @@ export default {
     align-items: center;
 }
 
+.Info-square h2 {
+    font-size: 1.5vw;
+}
+
+.Info-square p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
 .Wrapper-rt{
+  
     display: flex;
     background-color: #2b150c;
     padding: 0.5rem 0 0 0;
     border-radius: 0 0.5rem 0 0;
+    height: 100%;
+    width: 50vw;
+
 }
 
 .Info-rect {
     background-color: white;
     border-radius: 1rem 0 0 0;
     padding: 0.5rem;
+    position: relative;
+    overflow: hidden;
 }
 
+.Info-deploy{
+    position: absolute;
+    right: 3vw;
+    top: 50%;
+}
+
+.Info-text{
+    width: 85%;
+    margin-left: 3%;
+}
 
 </style>
