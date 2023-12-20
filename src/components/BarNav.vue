@@ -1,5 +1,5 @@
 <script>
-import ButtonClear from "@/assets/buttonclear.vue";
+import ButtonClear from "@/assets/ButtonClear.vue";
 
 export default {
     components: {
