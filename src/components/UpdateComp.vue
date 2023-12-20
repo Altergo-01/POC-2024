@@ -37,7 +37,7 @@ export default {
     },
 
     getArrowImage() {
-    return this.deploy ? "../src/assets/ArrowWhite.png" : '../src/assets/Arrow.png';
+    return this.deploy ? "/src/assets/ArrowWhite.png" : '/src/assets/Arrow.png';
   },
 },
 
