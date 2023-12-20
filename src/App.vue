@@ -149,9 +149,6 @@ avec les matériaux proposer par Tidys.</p>
   margin-top: 5vh;
 }
 
-.Particle p{
- 
-}
 
 video {
     width: 100%;
