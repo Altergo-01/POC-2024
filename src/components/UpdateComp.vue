@@ -1,5 +1,6 @@
 <script>
- 
+ import arrow from "../assets/Arrow.png"
+import arrowW from "../assets/ArrowWhite.png"
 
 export default {
     
@@ -37,7 +38,7 @@ export default {
     },
 
     getArrowImage() {
-    return this.deploy ? "/assets/ArrowWhite.png" : '/assets/Arrow.png';
+    return this.deploy ? arrowW : arrow;
   },
 },
 
@@ -70,7 +71,7 @@ mounted() {
                     <br><br>
                     {{ Com2 }}
                 </p>
-                <img  :src="'@/'+this.getArrowImage" v-on:click.prevent="deployed()" class="Info-deploy"> 
+                <img  :src="this.getArrowImage" v-on:click.prevent="deployed()" class="Info-deploy"> 
             </div>
 
         </div>

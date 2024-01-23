@@ -4,6 +4,12 @@ import BarNav from '@/components/BarNav.vue';
 import Rectangular from './components/shapes/RectangularShape.vue';
 import UpdateComp from './components/UpdateComp.vue';
 import CardSub from '@/components/shapes/CardSub.vue'
+import CPT1 from "./assets/CTP1.png"
+import CPT2 from "./assets/CTP2.png"
+import CPT3 from "./assets/CTP3.png"
+
+
+import CPT4 from "./assets/CTP4.png"
 </script>
 
 <template>
@@ -121,15 +127,15 @@ avec les matériaux proposer par Tidys.</p>
       <div style="height: 20vh">&nbsp;</div>
       <h2> Contreparties </h2>
 
-      <CardSub CardTe="Donne accès à une carte fidélité exclusive, offrant -30% sur le 11ème produit acheté chez Tidys, badges Tidys fait avec les matériaux des façades. ( choisir )" CardIc="/assets/CTP1.png" CardNa="Carte Artisan" CardPr="5"></CardSub>
+      <CardSub CardTe="Donne accès à une carte fidélité exclusive, offrant -30% sur le 11ème produit acheté chez Tidys, badges Tidys fait avec les matériaux des façades. ( choisir )" :CardIc=CPT1 CardNa="Carte Artisan" CardPr="5"></CardSub>
 
-      <CardSub CardTe="Permet d'être traité en priorité pour une commande future et assure la qualité dans un délais record." CardIc="/assets/CTP2.png" CardNa="Carte Coupe-file" CardPr="20"></CardSub>
+      <CardSub CardTe="Permet d'être traité en priorité pour une commande future et assure la qualité dans un délais record." :CardIc=CPT2 CardNa="Carte Coupe-file" CardPr="20"></CardSub>
 
-      <CardSub CardTe="Permet d'avoir accès aux nouveau produit en avance sur le site + récompenses précédentes." CardIc="/assets/CTP3.png" CardNa="Carte Associé" CardPr="50"></CardSub>
+      <CardSub CardTe="Permet d'avoir accès aux nouveau produit en avance sur le site + récompenses précédentes." :CardIc=CPT3 CardNa="Carte Associé" CardPr="50"></CardSub>
 
-      <CardSub CardTe="Permet d'être immortalisé comme l'un des pilier du service Tidys sur le site, -25% sur la totalité de la première commande" CardIc="@/assets/CTP4.png" CardNa="Carte Colaborateur" CardPr="100"></CardSub>
+      <CardSub CardTe="Permet d'être immortalisé comme l'un des pilier du service Tidys sur le site, -25% sur la totalité de la première commande" :CardIc=CPT4 CardNa="Carte Colaborateur" CardPr="100"></CardSub>
 
-      <CardSub CardTe="Accès à des exemplaire gratuit de nouveaux produit, et permet de voir ses avis et conseils pris en compte, pour accompagner Tidys dans sa poursuite de la qualité. " CardIc="@/assets/CTP5.png" CardNa="Carte Prestige" CardPr="250"></CardSub>
+      <CardSub CardTe="Accès à des exemplaire gratuit de nouveaux produit, et permet de voir ses avis et conseils pris en compte, pour accompagner Tidys dans sa poursuite de la qualité. " :CardIc=CPT5 CardNa="Carte Prestige" CardPr="250"></CardSub>
 
 
     </section>
