@@ -8,8 +8,9 @@ import CPT1 from "./assets/CTP1.png"
 import CPT2 from "./assets/CTP2.png"
 import CPT3 from "./assets/CTP3.png"
 
-
 import CPT4 from "./assets/CTP4.png"
+
+import CPT5 from "./assets/CTP5.png"
 </script>
 
 <template>
