@@ -19,7 +19,7 @@ export default {
   <div class="CardContainer">
     <!-- <div class="CardContent"></div> -->
     <div class="CardIcon">
-      <img :src="CardIc" alt="">
+      <img :src="'@/'+CardIc" alt="">
       <h2>{{CardPr}}€ &nbsp; </h2>
     </div>
 

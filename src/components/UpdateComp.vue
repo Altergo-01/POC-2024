@@ -37,7 +37,7 @@ export default {
     },
 
     getArrowImage() {
-    return this.deploy ? "/src/assets/ArrowWhite.png" : '/src/assets/Arrow.png';
+    return this.deploy ? "/assets/ArrowWhite.png" : '/assets/Arrow.png';
   },
 },
 
@@ -70,7 +70,7 @@ mounted() {
                     <br><br>
                     {{ Com2 }}
                 </p>
-                <img  :src="this.getArrowImage" v-on:click.prevent="deployed()" class="Info-deploy"> 
+                <img  :src="'@/'+this.getArrowImage" v-on:click.prevent="deployed()" class="Info-deploy"> 
             </div>
 
         </div>

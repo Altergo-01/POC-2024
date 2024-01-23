@@ -63,22 +63,30 @@ l'ambition est d'autant plus grande et nous nous efforçons de réaliser un proj
             <img src="@/assets/StepsProject.png" alt="" width="90%">
         <h3>Palier 1</h3>
         <br>
-        <p>Dans la première itération du configurateur, nous vous proposons une sélection de cuisines préfabriquées tout en vous laissant la liberté de personnaliser les matériaux, les couleurs, ainsi que les modèles de poignées et de façades selon vos préférences.</p>
+        <p>Dans la première itération du configurateur, nous vous proposons une sélection de cuisines préfabriquées tout en vous 
+          laissant la liberté de personnaliser les matériaux, les couleurs, ainsi que les modèles de poignées et de façades selon vos 
+          préférences.</p>
 
                 
         <h3>Palier 2</h3>
         <br>
-        <p>Nous repoussons les limites du configurateur pour vous offrir la possibilité de concevoir entièrement votre cuisine. Vous pouvez désormais choisir la taille de votre espace cuisine et décider où positionner chaque meuble, le tout grâce à une interface utilisateur totalement repensée, plus intuitive et complète.</p>
+        <p>Nous repoussons les limites du configurateur pour vous offrir la possibilité de concevoir entièrement votre cuisine. 
+          Vous pouvez désormais choisir la taille de votre espace cuisine et décider où positionner chaque meuble, le tout grâce à 
+          une interface utilisateur totalement repensée, plus intuitive et complète.</p>
 
                 
         <h3>Palier 3</h3>
         <br>
-        <p> Nous perfectionnons le niveau de personnalisation en permettant la modification de la forme de la pièce et de ses angles. Cela s'adresse particulièrement aux cuisines aux agencements plus complexes. De plus, nous introduisons un nouvel onglet "cosmétiques" qui vous donne la liberté d'ajouter des éléments décoratifs pour une immersion totale dans votre projet.</p>
+        <p> Nous perfectionnons le niveau de personnalisation en permettant la modification de la forme de la pièce et de ses angles. 
+          Cela s'adresse particulièrement aux cuisines aux agencements plus complexes. De plus, nous introduisons un nouvel onglet 
+          "cosmétiques" qui vous donne la liberté d'ajouter des éléments décoratifs pour une immersion totale dans votre projet.</p>
 
                 
         <h3>Palier 4</h3>
         <br>
-        <p>À ce stade, vous avez la possibilité de créer vos propres meubles de A à Z. Choisissez la taille, la profondeur, la hauteur, le nombre de tiroirs, et bien plus encore. Une fois votre création aboutie, nous ajoutons automatiquement les détails de sa fabrication à votre panier, vous offrant une expérience de personnalisation ultime pour votre cuisine.</p>
+        <p>À ce stade, vous avez la possibilité de créer vos propres meubles de A à Z. Choisissez la taille, la profondeur, 
+          la hauteur, le nombre de tiroirs, et bien plus encore. Une fois votre création aboutie, nous ajoutons automatiquement les 
+          détails de sa fabrication à votre panier, vous offrant une expérience de personnalisation ultime pour votre cuisine.</p>
 
                 
         <h3>Palier ???</h3>
@@ -89,14 +97,14 @@ l'ambition est d'autant plus grande et nous nous efforçons de réaliser un proj
 
       <article class="ProjetDetail Particle">
         <h2> NOTRE AVENTURE AVEC TIDYS </h2>
-        <p>Le projet du modulateur de cuisine réaliser pour Tidys est un projet qui nous tenais à coeur. <br><br>
+        <p>Le projet du modulateur de cuisine réalisé pour Tidys est un projet qui nous tenais à coeur. <br><br>
 En tant que Kitchen Engineers, nous recherchions un collaborateur afin de nous soumettre un projet qui répondait à nos critéres. <br>
 Ce projet va permettre au particulier de se projeter dans leurs propres cuisine de types IKEA et de designer eux même leurs meubles,
 avec les matériaux proposer par Tidys.</p>
       </article>
 
       <article class="ProjetGoal Particle">
-        <h3>Un grand merci à tous ceux qui compte nous soutenir. <br><br> Vous êtes une partie vitale de notre ascension, du progrès 
+        <h3>Un grand merci à tous ceux qui comptent nous soutenir. <br><br> Vous êtes une partie vitale de notre ascension, du progrès 
         de ce projet, et c'est avec grand plaisir que nous vous accompagnerons régulièrement sur nos avancée, et les projets futurs que vos 
       participation permettront de faire naître.</h3>
 
@@ -113,15 +121,15 @@ avec les matériaux proposer par Tidys.</p>
       <div style="height: 20vh">&nbsp;</div>
       <h2> Contreparties </h2>
 
-      <CardSub CardTe="Donne accès à une carte fidélité exclusive, offrant -30% sur le 11ème produit acheté chez Tidys, badges Tidys fait avec les matériaux des façades. ( choisir )" CardIc="/src/assets/CTP1.png" CardNa="Carte Artisan" CardPr="5"></CardSub>
+      <CardSub CardTe="Donne accès à une carte fidélité exclusive, offrant -30% sur le 11ème produit acheté chez Tidys, badges Tidys fait avec les matériaux des façades. ( choisir )" CardIc="/assets/CTP1.png" CardNa="Carte Artisan" CardPr="5"></CardSub>
 
-      <CardSub CardTe="Permet d'être traité en priorité pour une commande future et assure la qualité dans un délais record." CardIc="/src/assets/CTP2.png" CardNa="Carte Coupe-file" CardPr="20"></CardSub>
+      <CardSub CardTe="Permet d'être traité en priorité pour une commande future et assure la qualité dans un délais record." CardIc="/assets/CTP2.png" CardNa="Carte Coupe-file" CardPr="20"></CardSub>
 
-      <CardSub CardTe="Permet d'avoir accès aux nouveau produit en avance sur le site + récompenses précédentes." CardIc="/src/assets/CTP3.png" CardNa="Carte Associé" CardPr="50"></CardSub>
+      <CardSub CardTe="Permet d'avoir accès aux nouveau produit en avance sur le site + récompenses précédentes." CardIc="/assets/CTP3.png" CardNa="Carte Associé" CardPr="50"></CardSub>
 
-      <CardSub CardTe="Permet d'être immortalisé comme l'un des pilier du service Tidys sur le site, -25% sur la totalité de la première commande" CardIc="/src/assets/CTP4.png" CardNa="Carte Colaborateur" CardPr="100"></CardSub>
+      <CardSub CardTe="Permet d'être immortalisé comme l'un des pilier du service Tidys sur le site, -25% sur la totalité de la première commande" CardIc="@/assets/CTP4.png" CardNa="Carte Colaborateur" CardPr="100"></CardSub>
 
-      <CardSub CardTe="Accès à des exemplaire gratuit de nouveaux produit, et permet de voir ses avis et conseils pris en compte, pour accompagner Tidys dans sa poursuite de la qualité. " CardIc="/src/assets/CTP5.png" CardNa="Carte Prestige" CardPr="250"></CardSub>
+      <CardSub CardTe="Accès à des exemplaire gratuit de nouveaux produit, et permet de voir ses avis et conseils pris en compte, pour accompagner Tidys dans sa poursuite de la qualité. " CardIc="@/assets/CTP5.png" CardNa="Carte Prestige" CardPr="250"></CardSub>
 
 
     </section>
