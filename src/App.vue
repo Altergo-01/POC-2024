@@ -20,7 +20,7 @@ import CardSub from '@/components/shapes/CardSub.vue'
 
     </div>
     <video autoplay muted loop >
-      <source src="@/assets/demo_configurateur.mp4" type="video/mp4">
+      <source src="./assets/demo_configurateur.mp4" type="video/mp4">
     </video>
   </section>
  
