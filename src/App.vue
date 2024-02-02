@@ -1,16 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+ 
 import BarNav from '@/components/BarNav.vue';
-import Rectangular from './components/shapes/RectangularShape.vue';
-import UpdateComp from './components/UpdateComp.vue';
-import CardSub from '@/components/shapes/CardSub.vue'
-import CPT1 from "./assets/CTP1.png"
-import CPT2 from "./assets/CTP2.png"
-import CPT3 from "./assets/CTP3.png"
-
-import CPT4 from "./assets/CTP4.png"
-
-import CPT5 from "./assets/CTP5.png"
+ 
+ 
 </script>
 
 <template>
@@ -34,114 +26,146 @@ import CPT5 from "./assets/CTP5.png"
 
   <section class="ProjetIntro" id="p1">
     <div class="ProjetTitle">
-      <h2>LE PROJET</h2>
-      <p>Pour améliorer votre expérience.</p>
+      <h2>ÉQUIPE KITCHEN ENGINEERS</h2>
+      <p> POC Configurateur de cuisine</p>
     </div>
 
-    <Rectangular></Rectangular>
+    <div id="img-content" class="WrapperShape">
+    
+    <div  class="Rect-left">
+      <img src="./assets/Subtract.png" alt="">
+    </div>
+    
+    <div class="Rect-right">
+      <p>Matthias Petit</p>
+      <span>Développeur Three.js et Intégrateur</span>
+      <br>
+      <p>Matthias Buczek</p>
+      <span>Modélisateur blender et Chef de projet</span>
+      <br>
+      <p>Léo Teissier</p>
+      <span>Modélisateur blender</span>
+      <br>
+      <p>Axel Bréhéret</p>
+      <span>Intégrateur et maquetteur </span>
+     
+    </div>
+ 
+  </div>
   </section>
 
-  <main>
-    <section class="Content" >
+  <section class="ProjetIntro"  >
+    <div class="ProjetTitle">
+      <h2>LE PROJET </h2>
+      <p>Dans sa globalité technique, le commenditaire, et ce qu'il apporte</p>
+    </div>
 
-      <article class="Actu" id="p2">
-        <h2>ACTUALITÉS</h2>
-        <div class="ActuList">
-          <UpdateComp date1="10" date2="Décembre 2023" Mess1="Merci Beaucoup... Le palier des 50000€ a été atteint en quelques jours." Com1="La réalisation du projet est enfin possible et nous allons pouvoir commencer à travailler dessus. Merci beaucoup pour votre contribution au projet." Com2="'On commencera le projet en bonne et du forme et on le présentera comme tel'"> 
-          </UpdateComp>
-          <UpdateComp date1="8" date2="Janvier 2024" Mess1="Avancée... Nous voulons vous tenir au courant que le projet avance bien, nous avons déjà bien entammer la réalisation des différents modéles 3D." Com1="Nous avons aussi commencer à réaliser toutes la préconfiguration du projet au niveau du site internet et des 
-solutions utilisées pour la mise à bien du modulateur de cuisine." Com2="Merci infiniment de votre soutient, on va tout donner pour ne pas vous décevoir"> 
-          </UpdateComp>
-          <UpdateComp date1="26" date2="Janvier 2024" Mess1="Incroyable...
-
-1 mois plus tard nous avons réussi à dépasser le deuxième palier et atteint un peu plus de 70000€." Com1="Merci à toutes les personnes qui ont souhaités nous soutenir sur ce projet et grâce à vous,
-l'ambition est d'autant plus grande et nous nous efforçons de réaliser un projet au summum de vos attentes." Com2="Spectaculaire, on a plus aucune raison de ne pas réaliser un projet aussi bien travailler avec autant de personne qui nous soutiennent, merci à tous."> 
-          </UpdateComp>
-
-          
-        </div>
-      </article>
-
-      <article class="ProjetSteps Particle" id="p3">
-
+    <div id="img-content" class="WrapperShape">
     
 
-        <h2> PALIERS </h2>
-            <img src="@/assets/StepsProject.png" alt="" width="90%">
-        <h3>Palier 1</h3>
-        <br>
-        <p>Dans la première itération du configurateur, nous vous proposons une sélection de cuisines préfabriquées tout en vous 
-          laissant la liberté de personnaliser les matériaux, les couleurs, ainsi que les modèles de poignées et de façades selon vos 
-          préférences.</p>
+    
+    <div class="Rect-right">
+       <p> ...</p>
+    </div>
 
-                
-        <h3>Palier 2</h3>
-        <br>
-        <p>Nous repoussons les limites du configurateur pour vous offrir la possibilité de concevoir entièrement votre cuisine. 
-          Vous pouvez désormais choisir la taille de votre espace cuisine et décider où positionner chaque meuble, le tout grâce à 
-          une interface utilisateur totalement repensée, plus intuitive et complète.</p>
+    <div  class="Rect-left">
+      <img :src="'@/assets/'+Imgname" alt="">
+    </div>
+ 
+  </div>
 
-                
-        <h3>Palier 3</h3>
-        <br>
-        <p> Nous perfectionnons le niveau de personnalisation en permettant la modification de la forme de la pièce et de ses angles. 
-          Cela s'adresse particulièrement aux cuisines aux agencements plus complexes. De plus, nous introduisons un nouvel onglet 
-          "cosmétiques" qui vous donne la liberté d'ajouter des éléments décoratifs pour une immersion totale dans votre projet.</p>
+  </section>
+  <section class="ProjetIntro" id="p2">
+    <div class="ProjetTitle">
+      <h2>LA PRÉSENTATION VIDÉO</h2>
+      <p>Dans un scénario pour le client comme le vendeur.</p>
+    </div>
 
-                
-        <h3>Palier 4</h3>
-        <br>
-        <p>À ce stade, vous avez la possibilité de créer vos propres meubles de A à Z. Choisissez la taille, la profondeur, 
-          la hauteur, le nombre de tiroirs, et bien plus encore. Une fois votre création aboutie, nous ajoutons automatiquement les 
-          détails de sa fabrication à votre panier, vous offrant une expérience de personnalisation ultime pour votre cuisine.</p>
+    <div id="img-content" class="WrapperShape">
+    
+        <h2>à venir...</h2>
+      
+  </div>
+  </section>
+  <section class="ProjetIntro" id="p4">
+    <div class="ProjetTitle">
+      <h2>ACCÉS EN LIGNE AU CONFIGURATEUR</h2>
+      <p>Pour tenter de faire votre propre cuisine.</p>
+    </div>
 
-                
-        <h3>Palier ???</h3>
-        <br>
-        <p>?????????</p>
+    <a href="https://mmi21d14.mmi-troyes.fr/wr501/" class="testing-ground"> <button> Essayez !</button>  </a>
 
-      </article>
+    <div id="img-content" class="WrapperShape">
+    
 
-      <article class="ProjetDetail Particle">
-        <h2> NOTRE AVENTURE AVEC TIDYS </h2>
-        <p>Le projet du modulateur de cuisine réalisé pour Tidys est un projet qui nous tenais à coeur. <br><br>
-En tant que Kitchen Engineers, nous recherchions un collaborateur afin de nous soumettre un projet qui répondait à nos critéres. <br>
-Ce projet va permettre au particulier de se projeter dans leurs propres cuisine de types IKEA et de designer eux même leurs meubles,
-avec les matériaux proposer par Tidys.</p>
-      </article>
+    
+     
 
-      <article class="ProjetGoal Particle">
-        <h3>Un grand merci à tous ceux qui comptent nous soutenir. <br><br> Vous êtes une partie vitale de notre ascension, du progrès 
-        de ce projet, et c'est avec grand plaisir que nous vous accompagnerons régulièrement sur nos avancée, et les projets futurs que vos 
-      participation permettront de faire naître.</h3>
+    <div  class="Rect-left">
+      <img :src="'@/assets/'+Imgname" alt="">
+    </div>
+ 
+  </div>
 
-      <br>
+  </section>
+  <section class="ProjetIntro" id="p3">
+    <div class="ProjetTitle">
+      <h2>LE BILAN</h2>
+      <p> Les fruits de ce POC et de ce qui pourrait être.</p>
+    </div>
 
-      <h3> L'équipe KitchenEngineer</h3>
-      </article>
+    <div id="img-content" class="WrapperShape">
+    
+    <div  class="Rect-left">
+      <img src="./assets/Bilan.png" alt="">
+    </div>
+    
+    <div class="Rect-right">
+      <span>
+        Notre production se concentre actuellement sur la modélisation 3D de cuisines IKEA. Initialement, nous envisagions de créer des ensembles prédéfinis pour des configurations
+         typiques, telles que les cuisines en L ou avec îlot central. Cependant, nous avons révisé notre stratégie en reconnaissant qu'un configurateur basé sur des ensembles
+          prédéfinis ne pourrait pas s'ajuster parfaitement à l'espace unique de chaque client potentiel, et ne satisfaisait pas la visio qu'avait Tidys des choses. <br><br>
+          
+          À l'avenir, nous ambitionnons de permettre l'importation directe de 
+          la configuration de la cuisine d'un client via le modèle spécifique de sa cuisine. Cette approche d'importation éliminera le besoin pour le client de s'engager dans 
+          le processus de configuration de base, lui permettant de se concentrer uniquement sur la sélection d'éléments esthétiques. Cette innovation promet un gain de temps 
+          significatif pour le client. <br><br>
+          
+          Au cours du développement de ce projet, nous avons maintenu plusieurs interactions avec Tidys. Lors de notre dernier échange en visioconférence, nous leur avons présenté la version la plus récente de notre logiciel qui a été reçu avec enthousiasme, et en a profité pour recevoir leurs points de vue sur ce qui pourrait être ajouté dans le futur, ce qui aurait pu être amélioré, de la même manière que lors de nos entrevues visios précédentes.
+          <br><br>
 
-      <article class="Particle"></article>
+          
 
-    </section>
+      </span>
+    </div>
+ 
+  </div>
+  </section>
+  <section class="ProjetIntro" id="p6">
+    <div class="ProjetTitle">
+      <h2>LE RETOUR DE TIDYS SUR LE POC</h2>
+      <p> Des pistes, des projets, de l'enthousiasme.</p>
+    </div>
 
-    <section class="CardSub">
-      <div style="height: 20vh">&nbsp;</div>
-      <h2> Contreparties </h2>
+    <div id="img-content" class="WrapperShape">
+    
 
-      <CardSub CardTe="Donne accès à une carte fidélité exclusive, offrant -30% sur le 11ème produit acheté chez Tidys, badges Tidys fait avec les matériaux des façades. ( choisir )" :CardIc=CPT1 CardNa="Carte Artisan" CardPr="5"></CardSub>
+    
+    <div class="Rect-right" id="bilan">
+       <span>La réaction de notre commanditaire après notre dernier échange a été plus que positive. Inspirés par les progrès de notre POC, tout le long du semestre, ils ont exprimé un intérêt grandissant pour configurateur de cuisine. Un aperçu de qui pouvait être fait, même par un groupe aussi restreint que le nôtre, leurs à donné espoir de voir un jour cet outil intégré à leur processus de vente pour simplifier plusieurs étapes actuellement et généralement faites manuellement (comme l'annotation de chaque devis et des pièces commandée).
+        <br><br>
+        C'est dans cet élan de curiosité enthousiasmée qu'ils nous ont poussée de manière encourageante à d'explorer de nouvelles fonctionnalités, notamment le développement d'un configurateur meubles sur mesure en 3D, celui d'un panier automatique avec l'import d'un design de cuisine depuis un concurrent ou depuis le leurs et bien d'autres.
+        <br><br> 
+        Cette extension du projet reflète une confiance en nos compétences, une preuve de ce dont nous avons été capables et de ce qui aurait pu voir le jour, si la SAE avait duré plus longtemps, une chose pour laquelle l'équipe de Tidys nous à félicité. Le à nos accomplir en tant que développeurs, mais aussi en tant que membre du monde du multimédia, en démontrant nos compétences dans des domaines purement créatifs à ça , il s'agit d'une expérience que nous retiendrons collectivement comme un grand pas en avant.
+     </span>
+    </div>
 
-      <CardSub CardTe="Permet d'être traité en priorité pour une commande future et assure la qualité dans un délais record." :CardIc=CPT2 CardNa="Carte Coupe-file" CardPr="20"></CardSub>
+ 
+ 
+  </div>
 
-      <CardSub CardTe="Permet d'avoir accès aux nouveau produit en avance sur le site + récompenses précédentes." :CardIc=CPT3 CardNa="Carte Associé" CardPr="50"></CardSub>
-
-      <CardSub CardTe="Permet d'être immortalisé comme l'un des pilier du service Tidys sur le site, -25% sur la totalité de la première commande" :CardIc=CPT4 CardNa="Carte Colaborateur" CardPr="100"></CardSub>
-
-      <CardSub CardTe="Accès à des exemplaire gratuit de nouveaux produit, et permet de voir ses avis et conseils pris en compte, pour accompagner Tidys dans sa poursuite de la qualité. " :CardIc=CPT5 CardNa="Carte Prestige" CardPr="250"></CardSub>
-
-
-    </section>
-  </main>
-
+  </section>
+   
  
 
 </template>
@@ -151,6 +175,117 @@ avec les matériaux proposer par Tidys.</p>
 
 <style scoped>
 
+#bilan{
+  width: 70%;
+}
+.testing-ground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 70%;
+  height: 65%;
+  background-image: url('./assets/POCtesting.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.testing-ground:visited, .testing-ground::after, .testing-ground:active{
+  text-decoration: none;
+}
+
+.testing-ground button {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  border-radius: 1rem;
+  border: #ffffff solid 1px;
+  background-color: #ffffff00;
+  transition: 0.3s;
+}
+
+.testing-ground button:hover {
+  color: #000000;
+  border: #ffffff solid 1px;
+  background-color: #ffffff;
+}
+
+svg {
+  height: 100%;
+  width: 50%;
+}
+
+.WrapperShape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: none;
+  height: fit-content;
+  column-gap: 0rem;
+}
+
+.Rect-left{
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.Rect-left img{
+  width: 70%;
+}
+
+.Rect-right{
+  height: 100%;
+  width: 45%;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  font-size: 0.875rem;
+  row-gap: 0.2rem;
+}
+
+.Rect-right p{
+  color: #925335;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+
+.Rect-right span {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  font-size: 1.2rem;
+}
+
+.Shape-bg{
+  width: 100%;
+}
+
+.Rect-txt span {
+  margin-left: 20%;
+}
+
+
+.stop-end{
+  width: 10%;
+  height: 100%;
+  background-color: aqua;
+  shape-outside: polygon(-47.11% 6px, 100% 50%, -47.89% 98.31%, -60px 45.35%);
+}
+
+.stop-start{
+  width: 10%;
+  height: 100%;
+  background-color: aqua;
+}
 .Particle{
   margin-top: 20vh;
   padding: 0 15vh 0 10vh;
@@ -186,7 +321,7 @@ nav {
   text-align: center;
 
 }
-
+ 
 section.heroVod {
     display: flex;
     flex-direction: row;
@@ -203,6 +338,7 @@ section.heroVod {
   align-items: center;
   background-color: var(--color-cream-N);
   height: 60vh;
+  margin-bottom: 5rem;
 }
 
 .ProjetTitle{

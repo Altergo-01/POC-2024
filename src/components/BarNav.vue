@@ -29,15 +29,15 @@ export default {
         <img src="@/assets/logo.png" alt="">
     </div>
     <div class="prog-bar">
-        <img src="@/assets/barre-prct.png" alt="">
+         
     </div>
     <div class="nav-links">
         
-        <ButtonClear buttonName="PROJET" idA="#p1"></ButtonClear>
+        <ButtonClear buttonName="EQUIPE" idA="#p1"></ButtonClear>
          
-        <ButtonClear buttonName="ACTUALITÉS" idA="#p2"></ButtonClear>
+        <ButtonClear buttonName="PRESENTATION" idA="#p2"></ButtonClear>
 
-        <ButtonClear buttonName="PALIERS" idA="#p3"></ButtonClear>
+        <ButtonClear buttonName="BILAN" idA="#p3"></ButtonClear>
    
     </div>
 

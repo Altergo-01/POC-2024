@@ -4,7 +4,7 @@
 export default {
   props: {
     Imgname : String,
-  },  
+  }, 
   data() {
     return {
       
@@ -21,9 +21,7 @@ export default {
 
   <div id="img-content" class="WrapperShape">
     
-    <div  class="Rect-left">
-      <img :src="'@/assets/'+Imgname" alt="">
-    </div>
+
     
     <p class="Rect-right">
       <span>Notre projet de configurateur de cuisine marque une révolution dans l'expérience immersive et la simulation tridimensionnelle accessible à tous, directement depuis votre navigateur web. </span>    
@@ -31,6 +29,10 @@ export default {
       <span>Notre futur interface conviviale et intuitive rendra le processus de conception ludique et accessible à tous. Il vous accompagnera dans chaque étape, faisant de la création de votre cuisine idéale une expérience agréable et sans tracas.</span>
       <span>Nous croyons en l'innovation au service de la facilité d'utilisation, c'est pourquoi notre configurateur repousse les limites de la technologie pour vous offrir une expérience immersive exceptionnelle.</span>
     </p>
+
+    <div  class="Rect-left">
+      <img :src="'@/assets/'+Imgname" alt="">
+    </div>
  
   </div>
 
