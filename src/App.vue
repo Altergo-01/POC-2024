@@ -117,7 +117,7 @@ import BarNav from '@/components/BarNav.vue';
     <div id="img-content" class="WrapperShape">
     
     <div  class="Rect-left">
-      <img src="./assets/Bilan.png" alt="">
+      <img src="./assets/Bilan.png" alt=""  id="imgBil">
     </div>
     
     <div class="Rect-right">
@@ -174,6 +174,12 @@ import BarNav from '@/components/BarNav.vue';
 
 
 <style scoped>
+
+
+#imgBil{
+  height: 75%;
+   
+}
 
 #bilan{
   width: 70%;
