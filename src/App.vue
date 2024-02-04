@@ -190,7 +190,7 @@ import BarNav from '@/components/BarNav.vue';
   align-items: center;
   text-decoration: none;
   width: 70%;
-  height: 65%;
+  height: 40vh;
   background-image: url('./assets/POCtesting.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -268,7 +268,7 @@ svg {
 .Rect-right span {
   margin-block-end: 0px;
   margin-block-start: 0px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .Shape-bg{
@@ -343,7 +343,7 @@ section.heroVod {
   justify-content: center;
   align-items: center;
   background-color: var(--color-cream-N);
-  height: 60vh;
+  min-height: 60vh;
   margin-bottom: 5rem;
 }
 
