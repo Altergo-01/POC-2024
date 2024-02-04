@@ -65,11 +65,29 @@ import BarNav from '@/components/BarNav.vue';
 
     
     <div class="Rect-right">
-       <p> ...</p>
+       <span class="left-span">
+        Notre projet consiste à réaliser un modélisateur de cuisine 3D pour l'entreprise Tydis.
+
+        L'entreprise Tydis est une petite boîte ou leur concept est de proposer une nouvelle esthétique, chez les particuliers possédant cuisines IKEA et qui voudraient les redécorer.
+
+        <br><br>
+
+        Notre objectif était de leur apporter une solution qui permettrait aux différents particuliers, une manière simple et innovante de pouvoir visualiser les nouvelles décorations que pourrait apporter à leurs cuisines.
+
+        <br><br>
+
+        Pour ce faire, nous avons décidé d'utiliser la technologie Three.js, car après plusieurs recherches sur les différentes technologies que l'on aurait pu sélectionner.
+
+        <br><br>
+
+        Three.js fut le choix le plus accessible pour le travail à réaliser.
+
+        Avec cette technologie, nous devions à la base partir sur un simple concepteur de cuisine, mais nous avons pu finalement plus développer avec la technologie et ainsi partir sur un modélisateur de cuisine et ainsi être beaucoup plus permissif dans la réalisation de la cuisine, ce soit au niveau des choix des différents meubles ou bien de la taille de la pièce.
+       </span>
     </div>
 
     <div  class="Rect-left">
-      <img :src="'@/assets/'+Imgname" alt="">
+      <img src="./assets/projet.png" class="projet-img" alt="">
     </div>
  
   </div>
@@ -82,8 +100,26 @@ import BarNav from '@/components/BarNav.vue';
     </div>
 
     <div id="img-content" class="WrapperShape">
-    
-        <h2>à venir...</h2>
+      <div class="Rect-right">
+        <span class="left-span">
+          Dans l'optique de présenter l'outil de configuration de cuisine que nous avons conçu, vous trouverez ici une vidéo de présentation de son fonctionnement en détail, ainsi que dans ce texte, une petite mise en situation, ou nous allons nous mettre dans la peau d'un potentiel client de Tidys !
+          <br> <br>
+          Il faut savoir que ce configurateur est un outil qui à pour but premier de faciliter le travail de l'équipe de Tidys, en offrant à leurs client un moyen de s'immerger dans leurs propre cuisine virutalisée, pour ensuite directement créer un devis qui énumère le nombre exact de poignée et de porte, ainsi que leurs types et leurs couleurs de manière complétement automatique.
+          Un poids en moins sur les épaules de le companie, qui pour le moment réalise tout ce travail manuellement à chaque devis !
+          <br> <br>
+          Imaginons alors être un client.
+          Nous arrivons sur l'outil, et la première chose que nous somme convié à faire est de renseigner les dimensions exact de notre pièce ( Le principe de grandeur nature, ça vous parle ? ), comme ça aucun soucis lors de son amménagement plus tard.
+          <br> <br>
+          Une fois les vérification faite, on confirme la taille, et on peut désormais amménager. Se trouve alors à notre disposition plusieurs menus contenant tout d'abords les différents modèles de meuble IKEA type, et leurs tailles, afin que nous puissions répliquer notre cuisine, on sélectionne ceux qui correspondent en largeur et hauteur aux notre, et petit à petit la réplique dans l'outil.
+          <br> <br>
+          Quand c'est fait, on peut enfin customiser les poignée et les portes des meubles selon le catalogue proposé par Tydis, chacun ses goût et ses couleurs promis (même si on à un faible pour la poignée Dahlia Large Brass ...).
+          <br> <br>
+          Maintenant : À vos cuisine ! 
+         </span>
+      </div>
+      <div class="Rect-left">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zcLHJnnnX0o?si=rZNq20IDy5TzA5bf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
       
   </div>
   </section>
@@ -175,6 +211,13 @@ import BarNav from '@/components/BarNav.vue';
 
 <style scoped>
 
+.projet-img{
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.144);
+}
+
+.left-span{
+  padding-left: 22%;
+}
 
 #imgBil{
   height: 75%;
@@ -345,6 +388,7 @@ section.heroVod {
   background-color: var(--color-cream-N);
   min-height: 60vh;
   margin-bottom: 5rem;
+  padding: 2rem 0;
 }
 
 .ProjetTitle{
